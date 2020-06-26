@@ -10,20 +10,24 @@ Config.set('graphics', 'height', '500')
 
 Builder.load_string("""
 <Boxes>:
+
     labelid: l01
     AnchorLayout:
         anchor_x: 'left'
         anchor_y: 'bottom'
         ScreenManager:
-            size_hint: 1, .9
+            size:(500, 450)
+            size_hint:(None, None) 
             id: _screen_manager
             Screen:
                 name: 'screen1'
                 FloatLayout:
                     Button:
                         text: "gomba"
-                        size_hint: 0.1, 0.1 
-                        pos_hint: {"x": 0.8, 'y':0.6}
+                        size:(100, 50)
+                        size_hint:(None, None) 
+                        pos: (370, 300)
+                        
                         on_press: root.filltable()
 
                 GridLayout: 
@@ -287,14 +291,34 @@ Builder.load_string("""
     AnchorLayout:
         anchor_x: 'center'
         anchor_y: 'top'
+        padding:0
         BoxLayout:
             orientation: 'horizontal'
             size_hint: 1, .1
             Button:
-                text: 'Go to Screen 1'
+                size:(100, 50)
+                size_hint:(None, None)                
+                text: 'gomb1'
+                on_press: _screen_manager.current = 'screen1'
+            Button:
+                size:(100, 50)
+                size_hint:(None, None) 
+                text: 'gomb2'
+                on_press: _screen_manager.current = 'screen1'
+            Button:
+                size:(100, 50)
+                size_hint:(None, None) 
+                text: 'gomb3'
+                on_press: _screen_manager.current = 'screen1'
+            Button:
+                size:(100, 50)
+                size_hint:(None, None) 
+                text: 'gomb4'
                 on_press: _screen_manager.current = 'screen1'
             Button:
                 text: 'Exit'
+                size:(100, 50)
+                size_hint:(None, None) 
                 on_press: app.stop() 
                 """)
 
