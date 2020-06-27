@@ -10,8 +10,97 @@ Config.set('graphics', 'height', '500')
 
 Builder.load_string("""
 <Boxes>:
+    label00:l00
+    label01:l01
+    label02:l02
+    label03:l03
+    label04:l04
+    label05:l05
+    label06:l06
+    label07:l07
+    label08:l08
+    
+    label10:l10
+    label11:l11
+    label12:l12
+    label13:l13
+    label14:l14
+    label15:l15
+    label16:l16
+    label17:l17
+    label18:l18
+    
+    label20:l20
+    label21:l21
+    label22:l22
+    label23:l23
+    label24:l24
+    label25:l25
+    label26:l26
+    label27:l27
+    label28:l28
+    
+    label30:l30
+    label31:l31
+    label32:l32
+    label33:l33
+    label34:l34
+    label35:l35
+    label36:l36
+    label37:l37
+    label38:l38
+    
+    label40:l40
+    label41:l41
+    label42:l42
+    label43:l43
+    label44:l44
+    label45:l45
+    label46:l46
+    label47:l47
+    label48:l48
+    
+    label50:l50
+    label51:l51
+    label52:l52
+    label53:l53
+    label54:l54
+    label55:l55
+    label56:l56
+    label57:l57
+    label58:l58
+    
+    label60:l60
+    label61:l61
+    label62:l62
+    label63:l63
+    label64:l64
+    label65:l65
+    label66:l66
+    label67:l67
+    label68:l68
+    
+    label70:l70
+    label71:l71
+    label72:l72
+    label73:l73
+    label74:l74
+    label75:l75
+    label76:l76
+    label77:l77
+    label78:l78
+    
+    label80:l80
+    label81:l81
+    label82:l82
+    label83:l83
+    label84:l84
+    label85:l85
+    label86:l86
+    label87:l87
+    label88:l88
 
-    labelid: l01
+    
     AnchorLayout:
         anchor_x: 'left'
         anchor_y: 'bottom'
@@ -39,247 +128,247 @@ Builder.load_string("""
                     row_force_default: True
                     col_force_default: True
                     Label:
-                        id:00
+                        id:l00
                         text: "1"
                     Label:
                         id:l01
                         text: "2"
                     Label:
-                        id:02
+                        id:l02
                         text: "3"
                     Label:
-                        id:03
+                        id:l03
                         text: "4"
                     Label:
-                        id:04
+                        id:l04
                         text: "5"
                     Label:
-                        id:05
+                        id:l05
                         text: "6"
                     Label:
-                        id:06
+                        id:l06
                         text: "7"
                     Label:
-                        id:07
+                        id:l07
                         text: "8"
                     Label:
-                        id:08
+                        id:l08
                         text: "9"
                     Label:
-                        id:10                    
+                        id:l10                    
                         text: "1"
                     Label:
-                        id:11
+                        id:l11
                         text: "2"
                     Label:
-                        id:12
+                        id:l12
                         text: "3"
                     Label:
-                        id:13
+                        id:l13
                         text: "4"
                     Label:
-                        id:14
+                        id:l14
                         text: "5"
                     Label:
-                        id:15
+                        id:l15
                         text: "6"
                     Label:                    
-                        id:16
+                        id:l16
                         text: "7"
                     Label:
-                        id:17
+                        id:l17
                         text: "8"
                     Label:
-                        id:18
+                        id:l18
                         text: "9"
                     Label:
-                        id:20
+                        id:l20
                         text: "1"
                     Label:
-                        id:21
+                        id:l21
                         text: "2"
                     Label:
-                        id:22
+                        id:l22
                         text: "3"
                     Label:
-                        id:23
+                        id:l23
                         text: "4"
                     Label:
-                        id:24
+                        id:l24
                         text: "5"
                     Label:
-                        id:25
+                        id:l25
                         text: "6"
                     Label:
-                        id:26
+                        id:l26
                         text: "7"
                     Label:
-                        id:27
+                        id:l27
                         text: "8"
                     Label:
-                        id:28
+                        id:l28
                         text: "9"
                     Label:
-                        id:30
+                        id:l30
                         text: "1"
                     Label:
-                        id:31
+                        id:l31
                         text: "2"
                     Label:
-                        id:32
+                        id:l32
                         text: "3"
                     Label:
-                        id:33
+                        id:l33
                         text: "4"
                     Label:
-                        id:34
+                        id:l34
                         text: "5"
                     Label:
-                        id:35
+                        id:l35
                         text: "6"
                     Label:
-                        id:36
+                        id:l36
                         text: "7"
                     Label:
-                        id:37
+                        id:l37
                         text: "8"
                     Label:
-                        id:38
+                        id:l38
                         text: "9"
                     Label:
-                        id:40
+                        id:l40
                         text: "1"
                     Label:
-                        id:41
+                        id:l41
                         text: "2"
                     Label:
-                        id:42
+                        id:l42
                         text: "3"
                     Label:
-                        id:43
+                        id:l43
                         text: "4"
                     Label:
-                        id:44
+                        id:l44
                         text: "5"
                     Label:
-                        id:45
+                        id:l45
                         text: "6"
                     Label:
-                        id:46
+                        id:l46
                         text: "7"
                     Label:
-                        id:47
+                        id:l47
                         text: "8"
                     Label:
-                        id:48
+                        id:l48
                         text: "9"
                     Label:
-                        id:50
+                        id:l50
                         text: "1"
                     Label:
-                        id:51
+                        id:l51
                         text: "2"
                     Label:
-                        id:52
+                        id:l52
                         text: "3"
                     Label:
-                        id:53
+                        id:l53
                         text: "4"
                     Label:
-                        id:54
+                        id:l54
                         text: "5"
                     Label:
-                        id:55
+                        id:l55
                         text: "6"
                     Label:
-                        id:56
+                        id:l56
                         text: "7"
                     Label:
-                        id:57
+                        id:l57
                         text: "8"
                     Label:
-                        id:58
+                        id:l58
                         text: "9"
                     Label:
-                        id:60
+                        id:l60
                         text: "1"
                     Label:
-                        id:61
+                        id:l61
                         text: "2"
                     Label:
-                        id:62
+                        id:l62
                         text: "3"
                     Label:
-                        id:63
+                        id:l63
                         text: "4"
                     Label:
-                        id:64
+                        id:l64
                         text: "5"
                     Label:
-                        id:65
+                        id:l65
                         text: "6"
                     Label:
-                        id:66
+                        id:l66
                         text: "7"
                     Label:
-                        id:67
+                        id:l67
                         text: "8"
                     Label:
-                        id:68
+                        id:l68
                         text: "9"
                     Label:
-                        id:70
+                        id:l70
                         text: "1"
                     Label:
-                        id:71
+                        id:l71
                         text: "2"
                     Label:
-                        id:72
+                        id:l72
                         text: "3"
                     Label:
-                        id:73
+                        id:l73
                         text: "4"
                     Label:
-                        id:74
+                        id:l74
                         text: "5"
                     Label:
-                        id:75
+                        id:l75
                         text: "6"
                     Label:
-                        id:76
+                        id:l76
                         text: "7"
                     Label:
-                        id:77
+                        id:l77
                         text: "8"
                     Label:
-                        id:78
+                        id:l78
                         text: "9"
                     Label:
-                        id:80
+                        id:l80
                         text: "1"
                     Label:
-                        id:81
+                        id:l81
                         text: "2"
                     Label:
-                        id:82
+                        id:l82
                         text: "3"
                     Label:
-                        id:83
+                        id:l83
                         text: "4"
                     Label:
-                        id:84
+                        id:l84
                         text: "5"
                     Label:
-                        id:85
+                        id:l85
                         text: "6"
                     Label:
-                        id:86
+                        id:l86
                         text: "7"
                     Label:
-                        id:87
+                        id:l87
                         text: "8"
                     Label:
-                        id:88
+                        id:l88
                         text: "9"
 
                     
@@ -294,7 +383,8 @@ Builder.load_string("""
         padding:0
         BoxLayout:
             orientation: 'horizontal'
-            size_hint: 1, .1
+            size:(500, 50)
+            size_hint:(None, None) 
             Button:
                 size:(100, 50)
                 size_hint:(None, None)                
@@ -322,12 +412,19 @@ Builder.load_string("""
                 on_press: app.stop() 
                 """)
 
+
 class Boxes(FloatLayout):
     def filltable(self):
-        self.labelid.text = "6"
+        for col in range(9):
+            for row in range(9):
+                command=("self.label"+str(row)+str(col)+".text = \"" + str(9-(col+row)) + "\"")
+                exec(command)
+
+
 class TestApp(App):
     def build(self):
         return Boxes()
+
 
 if __name__ == '__main__':
     TestApp().run()
